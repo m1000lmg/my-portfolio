@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fake Portfolio Project</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .card:hover .details {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white font-sans min-h-screen py-16 px-4">
+  <div class="max-w-4xl mx-auto text-center mb-12">
+    <h1 class="text-4xl font-bold mb-4">🎭 The Fake Portfolio</h1>
+    <p class="text-gray-400 text-lg">A showcase of made-up developers, fake work, and totally imaginary impact.</p>
+  </div>
+
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+    <!-- Fake Portfolio Card -->
+    <div class="bg-gray-800 rounded-xl shadow-xl overflow-hidden card relative">
+      <img src="https://via.placeholder.com/600x400?text=Awesome+App" class="w-full h-48 object-cover" alt="Fake App" />
+      <div class="p-4">
+        <h3 class="text-xl font-semibold">Zentronix Pro</h3>
+        <p class="text-gray-400 text-sm">AI-powered cloud fusion tool (not real)</p>
+      </div>
+      <div class="absolute bottom-0 left-0 right-0 p-4 bg-black/80 backdrop-blur-md details opacity-0 transform translate-y-4 transition-all duration-300">
+        <p class="text-xs">"Used by 0 companies. Saved no time. Changed zero lives."</p>
+        <button class="mt-2 px-3 py-1 text-sm text-indigo-400 border border-indigo-500 rounded hover:bg-indigo-600 hover:text-white">View Nothing</button>
+      </div>
+    </div>
+
+    <div class="bg-gray-800 rounded-xl shadow-xl overflow-hidden card relative">
+      <img src="https://via.placeholder.com/600x400?text=Design+Showcase" class="w-full h-48 object-cover" alt="Fake Design" />
+      <div class="p-4">
+        <h3 class="text-xl font-semibold">DesignFlowX</h3>
+        <p class="text-gray-400 text-sm">The next-gen design platform no one asked for</p>
+      </div>
+      <div class="absolute bottom-0 left-0 right-0 p-4 bg-black/80 backdrop-blur-md details opacity-0 transform translate-y-4 transition-all duration-300">
+        <p class="text-xs">"Fake clients loved the fake UI!"</p>
+        <button class="mt-2 px-3 py-1 text-sm text-indigo-400 border border-indigo-500 rounded hover:bg-indigo-600 hover:text-white">See Fantasy</button>
+      </div>
+    </div>
+
+    <div class="bg-gray-800 rounded-xl shadow-xl overflow-hidden card relative">
+      <img src="https://via.placeholder.com/600x400?text=Terminal+Hack" class="w-full h-48 object-cover" alt="Fake Terminal" />
+      <div class="p-4">
+        <h3 class="text-xl font-semibold">HackShell Ultra</h3>
+        <p class="text-gray-400 text-sm">Totally legal and 100% fictional terminal suite</p>
+      </div>
+      <div class="absolute bottom-0 left-0 right-0 p-4 bg-black/80 backdrop-blur-md details opacity-0 transform translate-y-4 transition-all duration-300">
+        <p class="text-xs">"Simulated 3,000 fake pings per second. Glorious."</p>
+        <button class="mt-2 px-3 py-1 text-sm text-indigo-400 border border-indigo-500 rounded hover:bg-indigo-600 hover:text-white">Access Simulation</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center mt-16 text-gray-500 text-sm">
+    © 2025 Society | This page is a fake portfolio as a joke but i can make a profesional one for you
+  </footer>
+</body>
+</html>
